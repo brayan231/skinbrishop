@@ -18,12 +18,11 @@ const API_CONFIG = {
 
 // CONFIGURACIÓN FIREBASE
 const configuracionFirebase = {
-    claveAPI: import.meta.env.VITE_FIREBASE_API_KEY,
-    dominioAutenticacion: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
-    urlBaseDatos: import.meta.env.VITE_FIREBASE_DATABASE_URL,
-    idProyecto: import.meta.env.VITE_FIREBASE_PROJECT_ID
+    claveAPI: "AIzaSyCsUzmWhrqYWjIucnMK74myXSQpdwzpKv4",
+    dominioAutenticacion: "bascalatos-b8f89.firebaseapp.com", 
+    urlBaseDatos: "https://bascalatos-b8f89-default-rtdb.firebaseio.com",
+    idProyecto: "bascalatos-b8f89"
 };
-
 // Inicializar Firebase
 firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
